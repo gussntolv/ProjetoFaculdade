@@ -1,0 +1,42 @@
+body {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.navbar {
+    width: 100%;
+    background-color: #007BFF;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.navbar a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+.container {
+    padding: 20px;
+}
+.consultas-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.consulta-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.consulta-item:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Login/Cadastre-se</title>
+    <script src="https://kit.fontawesome.com/50d4c3ecb6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="conteudo">
+        <section class="section.form">
+            <div class="form-box" id="form-box">
+                <h1 id="titulo">Cadastre-se</h1>
+                <form action="" id="form">
+                    <div class="input-grup">
+                        <div class="input-field" id="userField">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" id="usarname" name="username" placeholder="Digite o Usuario">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" id="email" name="email" placeholder="Digite seu email">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-regular fa-key"></i>
+                            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+                        </div>
+                        <p>Esqueceu sua senha? <a href="#">Clique Aqui!</a></p>
+                    </div>
+                            <div class="btn-confirm">
+                                <button id="submit"><a href="cliente/index.html" class="alink">Confirmar</a></button></a>
+                            </div>
+                        <div class="btn">
+                            <button type="button" id="btnlogin">Login</button>
+                            <button type="button" id="btncad" class="desativado">Cadastre-se</button>
+                        </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

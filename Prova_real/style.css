@@ -1,0 +1,156 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.navbar{
+    background-color: #67c3f3;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlogo{
+height: 25px;
+}
+.navbar-itens a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3ms;
+}
+
+.custom-button{
+    position: relative;
+    padding: 15px 20px;
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.533);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.link:hover{
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.header{
+
+    position: relative;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+.inicio{
+    background-color:#4787aa;
+    ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.esquerdo{
+    max-width: 50%;
+}
+
+.esquerdo h2{
+    margin: 0;
+}
+
+.esquerdo p{
+    margin: 10px 0;
+}
+
+.esquerdo a{
+    display: block;
+    max-width: 67px;
+}
+
+.direito img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.Vantagens{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.infos{
+    text-align: center;
+    display: flex;
+}
+
+.Vantagens h3{
+    text-align: center;
+    justify-content: center;
+    border-bottom:2px solid #33647e;
+}
+
+.box{
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    border-bottom: 3px solid #33647e;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box img{
+    margin-left: 10px;
+}
+.profissionais{
+    margin-top: 150px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.proinfo{
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.proinfo p{
+    text-align: center;
+    justify-content: center;
+}
+
+.proinfo h4{
+    text-align: center;
+    justify-content: center;
+}
+
+.contato{
+    border-top: 3px solid #33647e;
+    margin-top: 150px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.continfo{
+    justify-content: center;
+    align-items: center;
+}
+
+.continfo p{
+    align-items: center;
+    justify-content: center;
+}
+
